@@ -1,6 +1,6 @@
 import React from "react";
 import ContactUs from "./components/ContactUs";
-import Forum from "./components/Forum";
+import Forum from "./Forum/Forum.js";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import LearnMore from "./components/LearnMore";
