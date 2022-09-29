@@ -1,0 +1,17 @@
+.rules-codes-btn {
+    background-color: blueviolet;
+    color: white;
+    padding: .25rem;
+    border-radius: .625rem;
+    margin-left: 1rem;
+}
+
+.rules-codes-btn:hover {
+    background-color: lightblue;
+    color: blueviolet;
+    transform: scale(1.25);
+    padding: .25rem;
+    border-radius: .625rem;
+    cursor: pointer;
+    margin-left: 2.2rem;
+}

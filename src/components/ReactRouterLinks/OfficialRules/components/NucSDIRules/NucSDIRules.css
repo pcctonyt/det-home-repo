@@ -1,0 +1,59 @@
+.nucSDI-rules-wrapper {
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    padding: 0.5rem;
+    margin: 0 -13rem;
+    border: 1px solid blue;
+    border-radius: .625rem;
+}
+/*
+.treaty-chart-btn {
+    background-color: cyan;
+    color: magenta;
+    padding: .25rem;
+    border-radius: .625rem;
+}
+*/
+.text-center {
+    text-align: center;
+}
+
+.deploy-timeframe-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rule {
+    border: none;
+}
+
+.inf-handoff-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center-bold {
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: .25rem 0;
+    border-radius: .625rem;
+}
+
+.section-color {
+    background-color: lightblue;
+    color: blue;
+    border-radius: .625rem;
+}
+
+#readiness {
+    background-color: lightblue;
+    color: purple;
+}

@@ -1,12 +1,13 @@
 import React from "react";
-import ContactUs from "./components/ContactUs";
-import Forum from "./Forum/Forum.js";
+import ContactUs from "./components/ReactRouterLinks/ContactUs";
+import Forum from "./components/ReactRouterLinks/Forum/Forum";
 import Header from "./components/Header";
-import Home from "./components/Home";
-import LearnMore from "./components/LearnMore";
-import Limited from "./components/Limited";
-import Online from "./components/Online";
-import Ultimate from "./components/Ultimate";
+import Home from "./components/ReactRouterLinks/Home";
+import LearnMore from "./components/ReactRouterLinks/LearnMore";
+import Limited from "./components/ReactRouterLinks/Limited";
+//import OfficialRules from "./components/ReactRouterLinks/OfficialRules/Rules";
+import Online from "./components/ReactRouterLinks/Online"
+import Ultimate from "./components/ReactRouterLinks/Ultimate";
 import { Route, Routes } from "react-router-dom";
 
 function App() {

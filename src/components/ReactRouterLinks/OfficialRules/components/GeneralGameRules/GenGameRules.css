@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.general-rules-wrapper {
+    padding: 0.5rem;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    margin: 0 -13rem;
+    border: 1px solid blue;
+    border-radius: .625rem;
+}
+
+.board-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: .5rem;
+}
+.board-codes-btn {
+    background-color: brown;
+    color: orange;
+    padding: .25rem;
+    border-radius: .625rem;
+}
+
+.text-center-bold {
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.game-concepts {
+    background-color: green;
+    color: white;
+    border-radius: .625rem;
+}
+
+.indent {
+    margin-left: 1rem;
+    margin-right: 18rem;
+}
+
+.padding-top {
+    padding-top: 1rem;
+}
+
+.padding-bottom {
+    padding-bottom: 1rem;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: right;
+    margin-left: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.general-rules-setting-color {
+    background-color: gray;
+    color: rgb(6, 70, 115);
+    border-radius: .625rem;
+}

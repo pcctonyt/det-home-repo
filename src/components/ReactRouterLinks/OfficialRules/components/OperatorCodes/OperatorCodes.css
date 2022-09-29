@@ -1,0 +1,28 @@
+.operator-codes-btn-wrapper {
+    background-color: rgb(179, 52, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .625rem;
+}
+ .operator-codes-h1 {
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px rgb(204, 204, 219);
+ }
+
+.operator-codes-btn {
+    background-color: rgb(91, 171, 41);
+    color: rgb(236, 23, 12);
+    padding: .5rem;
+    margin: .5rem 3rem;
+    border-radius: .625rem;
+}
+
+.operator-codes-btn:hover {
+    background-color: rgb(236, 23, 92);
+    color: rgb(91, 171, 41);
+    padding: .5rem;
+    margin: .5rem 3rem;
+    border-radius: .625rem;
+    transform: scale(1.25);
+}

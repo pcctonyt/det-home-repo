@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.score-rules-wrapper {
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    padding: 0 .4rem;
+    margin: 0 -13rem;
+    border: 1px solid blue;
+    border-radius: .625rem;
+}
+
+.header-wrapper {
+    background-color: beige;
+    padding: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-wrapper h1 {
+    text-align: center;
+    color: brown;
+    font-family: Lucida, sans-serif;
+    font-size: 3rem;
+}
+
+.padding-bottom {
+    padding-bottom: 1rem;
+}
+
+.padding-top {
+    padding-top: 1rem;
+}
+
+.section-headings {
+    background-color: blue;
+    color: white;
+    border-radius: .625rem;
+    padding: .5rem 0;
+}
+
+.heading-paragraphs {
+    background-color: beige;
+    color: brown;
+    border-radius: .625rem;
+    padding: 0.5rem;
+}
+
+.score-sheet-btn {
+    background-color: purple;
+    color: cyan;
+    padding: .5rem;
+    border-radius: .625rem;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: right;
+    margin-left: 1rem;
+  }
