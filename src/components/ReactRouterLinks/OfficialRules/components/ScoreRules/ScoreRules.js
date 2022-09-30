@@ -12,7 +12,7 @@ const ScoreRules = () => {
         <hr className="rule padding-bottom" />
         <h2 className="text-center padding-top padding-bottom section-headings">Official Rules for the Score Sheet</h2>
         <h3 className="padding-top padding-bottom section-color">Click the button below to see your new Score Sheet!</h3>
-        <span className="app-wrapper">
+        <span>
               <button id="ShowScoreSheet" className="score-sheet-btn" onClick={() => setGetSheet(true)}>See your new Score Sheet!</button>
               <Popup trigger={ getSheet } setTrigger={ setGetSheet }>
                 <ScoreSheet />

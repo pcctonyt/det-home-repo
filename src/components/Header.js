@@ -17,7 +17,7 @@ const Header = () => {
                     <Tab LinkComponent={NavLink} to="/online" label="Online" />
                     <Tab LinkComponent={NavLink} to="/limited" label="Limited" />
                     <Tab LinkComponent={NavLink} to="/ultimate" label="Ultimate" />
-                    <Tab LinkComponent={NavLink} to="/learn" label="Learn More!" />
+                    <Tab LinkComponent={NavLink} to="/play" label="Play Now!" />
                     <Tab LinkComponent={NavLink} to="/forum" label="Forum" />
                     <Tab LinkComponent={NavLink} to="/contact" label="Contact Us" />
                 </Tabs>

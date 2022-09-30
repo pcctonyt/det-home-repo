@@ -1,0 +1,34 @@
+.section-btn {
+    padding: .4rem;
+    border: .15rem solid white;
+    border-radius: .3125rem;
+}
+
+.section-btn.offer {
+    background-color: yellow;
+    color: purple;
+}
+
+.section-btn.counter-offer.submit {
+    background-color: blueviolet;
+    color: cyan;
+}
+
+.section-btn.submit {
+    background-color: green;
+    color: orange;
+}
+
+.section-btn.review {
+    background-color: blue;
+    color: white;
+}
+
+.treaty-btn-validate {
+    background-color: red;
+    color: blue;
+}
+
+#section-two-offer-btn-color {
+    background-color: orange;
+}

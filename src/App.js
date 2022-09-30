@@ -3,9 +3,8 @@ import ContactUs from "./components/ReactRouterLinks/ContactUs";
 import Forum from "./components/ReactRouterLinks/Forum/Forum";
 import Header from "./components/Header";
 import Home from "./components/ReactRouterLinks/Home";
-import LearnMore from "./components/ReactRouterLinks/LearnMore";
+import Game from "./components/ReactRouterLinks/Game/Game";
 import Limited from "./components/ReactRouterLinks/Limited";
-//import OfficialRules from "./components/ReactRouterLinks/OfficialRules/Rules";
 import Online from "./components/ReactRouterLinks/Online"
 import Ultimate from "./components/ReactRouterLinks/Ultimate";
 import { Route, Routes } from "react-router-dom";
@@ -24,7 +23,7 @@ function App() {
             <Route path="/online" element={<Online />} exact />
             <Route path="/limited" element={<Limited />} exact />
             <Route path="/ultimate" element={<Ultimate />} exact />
-            <Route path="/learn" element={<LearnMore />} exact />
+            <Route path="/play" element={<Game />} exact />
         </Routes>
       </main>
     </React.Fragment>

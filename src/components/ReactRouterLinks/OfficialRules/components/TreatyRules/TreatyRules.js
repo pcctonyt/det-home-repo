@@ -12,7 +12,7 @@ const [ getTreaty, setGetTreaty ] = useState(false);
         <hr className="rule padding-bottom" />
         <h3 className="text-center-bold">Do you want to Shake Things Up?</h3>
         <h4 className="padding-top padding-bottom">In chess, both Players know that all rules always remain the same throughout the course of the game.  Because of this, the computer software suites that have been developed are now powerful enough to supply any human Player with the strongest move(s) in any given game at any given time.  Even the World Human Champions cannot reliably defeat the best "virtual" opponent(s).  Therefore, players cannot be entirely sure, that when playing online or in-person, for that matter, that they in fact are playing the opponent(s) they think they are playing.  Cheating can be difficult to both eradicate and prevent, even within the setting of "over-the-board" or "in-person" chess tournaments, due to both the availability and capability of today's mobile connectivity devices.</h4>
-           <span className="app-wrapper">
+           <span>
               <button id="ShowTreatyChart" className="treaty-chart-btn" onClick={() => setGetTreaty(true)}>See your new Treaty Negotiations Chart!</button>
               <Popup trigger={ getTreaty } setTrigger={ setGetTreaty }>
                 <Treaty />

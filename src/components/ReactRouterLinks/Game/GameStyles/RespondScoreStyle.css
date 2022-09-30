@@ -1,0 +1,70 @@
+.responding-score-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: gray;
+    max-width: 15vw;
+    border-radius: .625rem;
+}
+
+.score-box-window {
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 75px;
+    background-color: red;
+    color: white;
+    border-radius: .625rem;
+}
+
+.cash-box-window {
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 75px;
+    background-color: green;
+    color: white;
+    border-radius: .625rem;
+}
+
+.score-points {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: red;
+    background-color: green;
+}
+
+.cash-points {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: green;
+    background-color: red;
+}
+
+.ball {
+    border-radius: .625rem;
+    background-color: limegreen;
+}
+
+.strike {
+    border-radius: .3125rem;
+    background-color: pink;
+}
+
+.one {
+    font-size: 1.05rem;
+    font-weight: 200;
+}
+
+.two {
+    font-size: 1.10rem;
+    font-weight: 400;
+}
+
+.three {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.four {
+    font-size: 1.20rem;
+    font-weight: 800;
+}

@@ -1,0 +1,15 @@
+.section-six-wrapper {
+    background-color: rgb(10, 97, 10);
+    border-radius: .625rem;
+    margin-top: -2.5rem;
+    color: rgb(200, 200, 28);
+}
+
+.six {
+    text-align: center;
+    color: rgb(200, 200, 28);
+}
+
+.form-control.six-radio {
+    font-size: .7rem;
+}

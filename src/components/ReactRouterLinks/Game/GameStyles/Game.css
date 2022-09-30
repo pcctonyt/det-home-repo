@@ -1,0 +1,41 @@
+.score-header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+.game-components-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: beige;
+    margin-top: 1rem;
+    padding: 2rem .5rem;
+}
+
+
+.board-btn-wrapper {
+    margin: 15rem 0;
+}
+
+.board-codes-btn {
+    background-color: brown;
+    color: orange;
+    padding: .25rem;
+    border-radius: .625rem;
+}
+
+.score-sheet-btn {
+    background-color: purple;
+    color: cyan;
+    padding: .5rem;
+    border-radius: .625rem;
+}
+
+.treaty-chart-btn {
+    background-color: cyan;
+    color: magenta;
+    padding: .25rem;
+    border-radius: .625rem;
+}
