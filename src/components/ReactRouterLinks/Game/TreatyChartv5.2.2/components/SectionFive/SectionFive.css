@@ -2,9 +2,12 @@
     background-color: gray;
     border: .3125rem solid rgb(78, 70, 70);
     border-radius: .625rem;
+    margin-bottom: 2.5rem;
 }
 
 .five {
     text-align: center;
     color: black;
+    font-size: 1.4rem;
+    font-weight: 800;
 }

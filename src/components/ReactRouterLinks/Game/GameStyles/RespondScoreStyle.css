@@ -3,13 +3,17 @@
     flex-direction: column;
     justify-content: flex-end;
     background-color: gray;
-    max-width: 15vw;
+    max-width: 8vw;
     border-radius: .625rem;
+}
+
+.responding-score-box-wrapper > h4 {
+    overflow-wrap: break-word;
 }
 
 .score-box-window {
     display: grid;
-    grid-template-columns: 150px;
+    grid-template-columns: 70px;
     grid-template-rows: 75px;
     background-color: red;
     color: white;

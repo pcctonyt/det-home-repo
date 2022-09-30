@@ -24,7 +24,7 @@ const Game = () => {
         <div className="score-header-wrapper">
           <StartingScoreBox />
           <span className="board-btn-wrapper">
-            <button id="PlayNowGameBoard" className="board-codes-btn" onClick={() => setFireGameBoard(true)}>Deterrence Game Board</button>
+            <button id="PlayNowGameBoard" className="board-codes-btn" onClick={() => setFireGameBoard(true)}>Game Board</button>
             <Popup trigger={ fireGameBoard } setTrigger={ setFireGameBoard }>
                 <GameBoard />
             </Popup>

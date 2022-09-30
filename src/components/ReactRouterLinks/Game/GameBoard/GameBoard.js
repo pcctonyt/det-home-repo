@@ -3,14 +3,16 @@ import "./GameBoard.css";
 
 const GameBoard = () => {
   return (
-    <div>
+    <div className="board-wrapper">
         <header className="header">
-            <h1>Deterrence</h1>
-           <h2>Chess Enters The Nuclear Age!</h2>
+            <h1>Deterrence Game Board</h1>
+            
         </header>
         
-        <div className="board-grid-wrapper">
-        <h1 className="responding">Responding Player's Side</h1>
+        <div>
+            <div className="responding-text">
+            <h1>Responding Player's Side</h1>
+            </div>
             <div className="board-grid">
                 <div className="square">a8</div>
                 <div className="square">b8</div>

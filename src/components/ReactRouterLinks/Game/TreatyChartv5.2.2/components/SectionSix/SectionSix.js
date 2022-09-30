@@ -7,7 +7,7 @@ import SubmitButton from "../Buttons/SubmitButton";
 const SectionSix = () => {
   return (
     <div className="section-six-wrapper" id="section-6">
-      <h3 className="six">Border Rules and Enforcement Points Setting:</h3>
+      <h3 className="six">Border Rules and the Enforcement Points Setting:</h3>
       <form>
         <h5>Install a Border?</h5>
         <label className="form-control six-radio" htmlFor="born-bory">

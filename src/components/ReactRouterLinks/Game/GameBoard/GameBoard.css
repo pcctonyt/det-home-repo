@@ -11,9 +11,7 @@ body {
 }
 
 header {
-   /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    padding-top: .25rem;
     text-align: center;
     background-color: lightyellow;
     color: red;
@@ -21,27 +19,20 @@ header {
     font-family: "Lato", sans-serif;
 }
 
-.board-grid-wrapper {
-    background-color: red;
-    width: 45vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: -2rem 0;
+.board-wrapper {
+    margin-top: -3rem;
+    padding-top: 3rem;
 }
+
 .board-grid {
-    padding-top: 1em;
-    margin-top: 7.5em;
-    margin-bottom: 8em;
-    width: 100vw;
+    padding-top: 2rem;
+    margin-left: -8rem;
+    max-width: 80vw;
     height: 100vh;
     display: grid;
     justify-content: center;
     align-content: center;
-    justify-items: center;
-    align-items: center;
+    border-radius: .625rem;
     min-height: 100vh;
     grid-template-columns: repeat(8, auto);
     background-color: rgb(62, 53, 53);
@@ -132,11 +123,17 @@ header {
     font-size: 3rem;
 }
 
-.responding {
-    margin-bottom: -8rem;
+.responding-text {
+    margin-bottom: -11rem;
+    margin-left: 3rem;
+    background-color: black;
+    color: white;
 }
+
 .starting {
+    margin-left: 8rem;
     margin-top: -11rem;
+    color: white;
 }
 .codes {
     display: flex;
