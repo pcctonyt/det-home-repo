@@ -23,25 +23,22 @@ import { GlobalProvider } from "./context/GlobalState";
 const ScoreSheet = () => {
   return (
     <GlobalProvider>
-      <div className="score-sheet-wrapper">
-          <header className="app-header">
+      <header className="app-header">
             <h1>Deterrence Score Sheet</h1>
-          </header>
-          <span>
-            <StartingHeader />
-          </span>
+      </header>
+      <div className="wrapper">
           <span className="container">
+            <StartingHeader />
             <StartingScore />
             <StartingCash />
-            <StartPlusMinusPoints />
+            <StartPlusMinusPoints /> 
             <StartTurnList />
             <AddStartingTurn />
           </span>
           <hr className="sheet-separator"/>
-          <span>
-          <RespondingHeader />
-          </span>
+        
           <span className="container">
+            <RespondingHeader />
             <RespondingScore />
             <RespondingCash />
             <RespondPlusMinusPoints />

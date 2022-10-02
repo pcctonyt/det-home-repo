@@ -10,7 +10,7 @@ const RespondingTurn = ({ respondingTurn }) => {
 
     return (
             <li className="points-plus">
-                { respondingTurn.text } <span>{ scoreSign }{Math.abs(respondingTurn.scoredPoints)}</span><span>{ cashSign }{Math.abs(respondingTurn.cashPoints)}</span><button onClick={() => deleteRespondingTurn(respondingTurn.id)} className="delete-btn">x</button>
+                { respondingTurn.text } <span className="margin-right">{ scoreSign }{Math.abs(respondingTurn.scoredPoints)}</span><span>{ cashSign }{Math.abs(respondingTurn.newRespCashPoints) + " "}</span><span>{Math.abs(respondingTurn.newRespDeductedCashPoints)}</span><button onClick={() => deleteRespondingTurn(respondingTurn.id)} className="delete-btn">x</button>
             </li>
     )
 }

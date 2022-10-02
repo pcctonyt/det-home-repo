@@ -1,7 +1,7 @@
 import React from "react";
 import "./GameStyles/StartScoreStyle.css";
 
-const StartingScoreBox = () => {
+const StartingScoreBox = ({ total }) => {
   return (
     <div className="starting-score-box-wrapper">
         <h4>Starting Player:</h4>

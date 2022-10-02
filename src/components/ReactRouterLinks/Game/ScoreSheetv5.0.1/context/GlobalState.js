@@ -3,8 +3,8 @@ import AppReducer from "./AppReducer";
 
 //Initial state holding example turns
 const initialState = {
-    startingTurns:
-    [
+    startingTurns: []
+    /*[
         {
             id: 11,
             text: "e4",
@@ -29,9 +29,9 @@ const initialState = {
             scoredPoints: 0,
             cashPoints: 1
         }
-    ],
-    respondingTurns:
-    [
+    ] */,
+    respondingTurns: []
+     /* [
         {
             id: 12,
             text: "d5",
@@ -56,7 +56,7 @@ const initialState = {
             scoredPoints: -5,
             cashPoints: 0
         }
-    ]
+    ] */
 }
 
 //Creating context

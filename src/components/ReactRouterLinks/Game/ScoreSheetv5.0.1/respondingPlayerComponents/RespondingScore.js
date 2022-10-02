@@ -21,7 +21,7 @@ const RespondingScore = () => {
 
   return (
     <>
-        <h5>Responding Player's Score Sheet Game Points</h5>
+        <h5>Score:</h5>
         {total > 0 ? <h1 style={plusTextStyle}>{ total }</h1> : <h1 style={minusTextStyle}>{ total }</h1>}
     </>
   )

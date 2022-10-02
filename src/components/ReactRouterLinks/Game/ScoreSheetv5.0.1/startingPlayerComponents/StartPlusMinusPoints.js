@@ -6,15 +6,17 @@ const StartPlusMinusPoints = () => {
 
     const scoredTotal = startingTurns.map(startingTurn => startingTurn.scoredPoints);
 
-    const cashTotal = startingTurns.map(startingTurn => startingTurn.cashPoints);
+    const newCashTotal = startingTurns.map(startingTurn => startingTurn.newCashPoints);
+
+    const deductedCashTotal = startingTurns.map(startingTurn => startingTurn.deductedCashPoints);
 
     const startingPlusScorePoints = scoredTotal.filter(startingPoints => startingPoints > 0).reduce((acc, startingPoints) => (acc += startingPoints), 0).toFixed(2);
 
     const startingMinusScorePoints = (scoredTotal.filter(startingPoints => startingPoints < 0).reduce((acc, startingPoints) => (acc += startingPoints), 0) * -1).toFixed(2);
 
-    const startingPlusCashPoints = cashTotal.filter(startingPoints => startingPoints > 0).reduce((acc, startingPoints) => (acc += startingPoints), 0).toFixed(2);
+    const startingPlusCashPoints = newCashTotal.filter(startingPoints => startingPoints > 0).reduce((acc, startingPoints) => (acc += startingPoints), 0).toFixed(2);
 
-    const startingMinusCashPoints = (cashTotal.filter(startingPoints => startingPoints < 0).reduce((acc, startingPoints) => (acc += startingPoints), 0) * -1).toFixed(2);
+    const startingMinusCashPoints = (deductedCashTotal.filter(startingPoints => startingPoints < 0).reduce((acc, startingPoints) => (acc += startingPoints), 0) * -1).toFixed(2);
 
     return (
         <div className="starting-cash-score-container">
@@ -27,11 +29,11 @@ const StartPlusMinusPoints = () => {
             <p className="score-points-minus">{ startingMinusScorePoints }</p>
             </span>
             <span className="cash-points">
-            <h4>+ Cash Points</h4>
+            <h4>+ New Cash Points</h4>
             <p className="cash-points-plus">{ startingPlusCashPoints }</p>
             </span>
             <span className="cash-points">
-            <h4>- Cash Points</h4>
+            <h4>- Deducted Cash Points</h4>
             <p className="cash-points-minus">{ startingMinusCashPoints }</p>
             </span>
         </div>

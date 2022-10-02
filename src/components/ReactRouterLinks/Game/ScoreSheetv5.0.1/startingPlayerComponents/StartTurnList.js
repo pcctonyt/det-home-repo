@@ -8,8 +8,9 @@ const StartTurnList = () => {
   return (
     <>
         <h4 className="text-center">Starting Player's Turns</h4>
+        <h6>COMPLETE TURN WITH ALL TYPES OF POINTS:</h6>
         <ul className="list">
-          {startingTurns.map(startingTurn => (<StartingTurn key={startingTurn.id} startingTurn={startingTurn}/>))};
+          {startingTurns.map(startingTurn => (<StartingTurn key={startingTurn.id} startingTurn={startingTurn}/>))}
         </ul>
     </>
   )

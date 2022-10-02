@@ -4,7 +4,22 @@
 * {
   box-sizing: border-box;
 }
+
 */
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .score-sheet-wrapper {
   background-color: #ccbebe;
