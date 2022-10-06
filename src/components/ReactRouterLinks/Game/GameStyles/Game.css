@@ -27,6 +27,14 @@
     font-size: 1.75rem;
 }
 
+.board-codes-btn:hover {
+    background-color: orange;
+    color: brown;
+    padding: .25rem;
+    border-radius: .625rem;
+    font-size: 1.75rem;
+}
+
 .score-sheet-btn {
     background-color: purple;
     color: cyan;
@@ -34,9 +42,25 @@
     border-radius: .625rem;
 }
 
+.score-sheet-btn:hover {
+    background-color: cyan;
+    color: purple;
+    padding: .5rem;
+    border-radius: .625rem;
+    transform: scale(1.25);
+}
+
 .treaty-chart-btn {
     background-color: cyan;
     color: magenta;
-    padding: .25rem;
+    padding: .5rem;
     border-radius: .625rem;
+}
+
+.treaty-chart-btn:hover {
+    background-color: purple;
+    color: cyan;
+    padding: .5rem;
+    border-radius: .625rem;
+    transform: scale(1.25);
 }
