@@ -7,15 +7,14 @@ const PairsWith = () => {
         <div className="label">
             <header>
                 <h1 className="text-center bold">Pairs With Operator Code</h1>
-                <div className="divider"></div>
-                <p>This Code allows for either Player to indicate two Codes paired with one another in one overall Element Code, either an Order Element or Move Element.  Usually the Pairs With Operator (/) refers to two Units travelling to the same final resting square during the given Complete Turn.  Also, the Pairs With Operator needs to be used when Buying (B) a Mobile SDI Defense Unit to a square with two or more Units already there, and then to the right after the (/), the Unit designated for protection by that new Mobile SDI Defense Unit.  In the event of an Infantry Promotion Move Element (assuming that feature HAS NOT been turned off during Treaty negotiations, the Pairs With Operator is used on both sides of the equals sign.  For example <em>(e8/MTN = G/MIN))</em> and the newly minted General and Mobile Intermediate Nuclear Units BOTH rest on square e8 in place of the Infantry Unit and Mobile Tactical Nuclear Unit, which both get removed from the Game Board.  During Promotion (#1 Treaty selection notwithstanding ) no Points are scored, however Cash Value Points for the new Units are added to the promoting Player's Cash Value Game Points total during the Promotion Move Element (see All Score Sheet Move Element Codes: Promotion, for more information). </p>
-                <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Operator Code</span></p>
+                <div className="divider captures"></div>
+                <p className="divider captures">This Code allows for either Player to indicate two Codes paired with one another in one overall Element Code, either an Order Element or Move Element.  Usually the Pairs With Operator (/) refers to two Units travelling to the same final resting square during the given Complete Turn.  Also, the Pairs With Operator needs to be used when Buying (B) a Mobile SDI Defense Unit to a square with two or more Units already there, and then to the right after the (/), the Unit designated for protection by that new Mobile SDI Defense Unit.  In the event of an Infantry Promotion Move Element (assuming that feature HAS NOT been turned off during Treaty negotiations, the Pairs With Operator is used on both sides of the equals sign.  For example <em>(e8/MTN = G/MIN))</em> and the newly minted General and Mobile Intermediate Nuclear Units BOTH rest on square e8 in place of the Infantry Unit and Mobile Tactical Nuclear Unit, which both get removed from the Game Board.  During Promotion (#1 Treaty selection notwithstanding ) no Points are scored, however Cash Value Points for the new Units are added to the promoting Player's Cash Value Game Points total during the Promotion Move Element (see All Score Sheet Move Element Codes: Promotion, for more information). </p>
+                <p className="bold type">Code Type: <span className="right">Operator Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
-                    <p className="bold">Use Operator Code:<span className="right">Use for:</span></p>
-                    <h1>(/)</h1> <span className="right lg-text">Indicating two Units travelling together or paired together</span>
+                    <p className="bold lg-text">Use Operator Code:<span className="right"><h1 className="code-padding-top">(/)</h1></span></p>
+                     <span className="right lg-text">Use for: Indicating two Units travelling together or paired together</span>
                 </div>
                 <div className="divider md"></div>
                 <div className="daily-value sm-text">

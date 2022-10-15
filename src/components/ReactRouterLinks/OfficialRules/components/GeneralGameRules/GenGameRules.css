@@ -9,7 +9,7 @@
     border-radius: .625rem;
 }
 
-.board-btn-wrapper {
+.board-btn-wrapper-gen-rules {
     display: flex;
     flex-direction: row;
     justify-content: center;

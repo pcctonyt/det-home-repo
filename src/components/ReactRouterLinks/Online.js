@@ -12,7 +12,7 @@ const Online = () => {
         <h1>This is the Online Page</h1>
         <h2>This is the First Tier: The One that is free.</h2>
         <h3>They will have access to the Learn More! Page.</h3>
-        
+        <h3>Click the button below for all Official Rules for Deterrence!</h3>
         <span>
             <button id="AllOfficialRules" className="rules-codes-btn" onClick={() => setFireRules(true)}>Deterrence Official Rules by Section</button>
             <Popup trigger={ fireRules } setTrigger={ setFireRules }>
@@ -22,7 +22,7 @@ const Online = () => {
       
         <h3>This will allow them to play the game in person "over-the-board" or online via meeting platforms.</h3>
         <h4>Each Player will need a 64-square playing surface with alternating colors, a chess-piece set, and checkers set.</h4>
-        <h4>The Players can order a "hard-copy" of the Official Rules.</h4>
+        <h4>The Players will be able to order a "hard-copy" of the Official Rules.</h4>
         <h4>The Players here will be able to order a "hard-copy" packet of Fallout Square symbols, Score Sheets and Treaties</h4>
             <ul>Examples of meeting platforms:
                 <li>Google Meet</li>

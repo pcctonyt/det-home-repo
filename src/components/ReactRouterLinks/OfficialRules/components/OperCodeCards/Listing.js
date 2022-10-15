@@ -1,4 +1,5 @@
 import React from "react";
+import "../OperatorCodes/DetCards.css";
 
 const Listing = () => {
   return (
@@ -7,15 +8,14 @@ const Listing = () => {
         <div className="label">
             <header>
                 <h1 className="text-center bold">Listing Operator Code</h1>
-                <div className="divider"></div>
-                <p>This Code allows for either Player to list separately one Element from another Element (whether Move or Order Elements), within one Complete Turn.  Even though most Complete Turns will only have one total Element, some might have two total Elements, and the Complete Turns including a Protect the President (O-O or O-O-O) Move Element might contain three total Elements (one for protection, one to Arm (R), and one to Declare that Lieutenant Unit as an Envoy (E=)).  It is each Player's responsibility to accurately record these Elements IN ORDER on the Score Sheet, so that the entirety of that Complete Turn is indeed legal.  Examples below illustrate this concern. </p>
-                <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Operator Code</span></p>
+                <div className="divider captures"></div>
+                <p className="divider captures">This Code allows for either Player to list separately one Element from another Element (whether Move or Order Elements), within one Complete Turn.  Even though most Complete Turns will only have one total Element, some might have two total Elements, and the Complete Turns including a Protect the President (O-O or O-O-O) Move Element might contain three total Elements (one for protection, one to Arm (R), and one to Declare that Lieutenant Unit as an Envoy (E=)).  It is each Player's responsibility to accurately record these Elements IN ORDER on the Score Sheet, so that the entirety of that Complete Turn is indeed legal.  Examples below illustrate this concern. </p>
+                <p className="bold type">Code Type: <span className="right">Operator Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
-                    <p className="bold">Use Operator Code:<span className="right">Use for:</span></p>
-                    <h1>(,)</h1> <span className="right lg-text">Listing a turn's Elements</span>
+                    <p className="bold lg-text">Use Operator Code:<span className="right"><h1 className="code-padding-top">(,)</h1></span></p>
+                     <span className="right lg-text">Use for: Listing a turn's Elements</span>
                 </div>
                 <div className="divider md"></div>
                 <div className="daily-value sm-text">

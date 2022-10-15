@@ -79,9 +79,9 @@ const GameBoard = () => {
                 <div className="square">g1</div>
                 <div className="square">h1</div>
             </div>
-            <h1 className="starting">Starting Player's Side</h1>
+            
         </div>
-        
+        <h1 className="starting-text">Starting Player's Side</h1>
     </div>
   )
 }

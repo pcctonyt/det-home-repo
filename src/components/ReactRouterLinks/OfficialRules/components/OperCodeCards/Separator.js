@@ -7,15 +7,14 @@ const Separator = () => {
         <div className="label">
             <header>
                 <h1 className="text-center bold">Separator Operator Code</h1>
-                <div className="divider"></div>
-                <p>This Code allows for either Player to list separately one Element Code from the Unit or Element Code causing that change within that single Move Element.  The Separator Operator (-) DOES NOT separate square codes from other Codes.  The Border Breach Move Element Code is ALWAYS PRECEDED by a Separator (-).  In this way, the Players and/or others reviewing that Score Sheet clearly see a "separation" between the starting Code and other types of non-square Codes, making that Score Sheet easier to read.</p>
-                <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Operator Code</span></p>
+                <div className="divider captures"></div>
+                <p className="divider captures">This Code allows for either Player to list separately one Element Code from the Unit or Element Code causing that change within that single Move Element.  The Separator Operator (-) DOES NOT separate square codes from other Codes.  The Border Breach Move Element Code is ALWAYS PRECEDED by a Separator (-).  In this way, the Players and/or others reviewing that Score Sheet clearly see a "separation" between the starting Code and other types of non-square Codes, making that Score Sheet easier to read.</p>
+                <p className="bold type">Code Type: <span className="right">Operator Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
-                    <p className="bold">Use Operator Code:<span className="right">Use for:</span></p>
-                    <h1>(-)</h1> <span className="right lg-text">Splitting First Codes from other non-square Codes</span>
+                    <p className="bold lg-text">Use Operator Code:<span className="right"><h1 className="code-padding-top">(-)</h1></span></p>
+                     <span className="right lg-text">Use for: Splitting First Codes from other non-square Codes</span>
                 </div>
                 <div className="divider md"></div>
                 <div className="daily-value sm-text">

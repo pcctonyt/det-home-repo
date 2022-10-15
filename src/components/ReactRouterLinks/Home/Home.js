@@ -1,10 +1,12 @@
 import React from "react";
+import SellTheGame from "./components/SellTheGame";
 
 const Home = () => {
   return (
     <div>
         <h1>Deterrence Home Page</h1>
         <h2>This will have the introductory content to "sell the game."</h2>
+        <SellTheGame />
         <h2>This will have the gee whiz nuclear weapons video links to click on.</h2>
         <h3>This will have links to videos talking about the problems with chess.</h3>
         <h3>The react router dom navbar appears on all pages.</h3>

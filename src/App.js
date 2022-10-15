@@ -2,12 +2,13 @@ import React from "react";
 import ContactUs from "./components/ReactRouterLinks/ContactUs";
 import Forum from "./components/ReactRouterLinks/Forum/Forum";
 import Header from "./components/Header";
-import Home from "./components/ReactRouterLinks/Home";
+import Home from "./components/ReactRouterLinks/Home/Home";
 import Game from "./components/ReactRouterLinks/Game/Game";
 import Limited from "./components/ReactRouterLinks/Limited";
 import Online from "./components/ReactRouterLinks/Online"
 import Ultimate from "./components/ReactRouterLinks/Ultimate";
 import { Route, Routes } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <header>
           <Header />
       </header>
-      <main>
+      <main className="white-background">
         <Routes>
             <Route path="/contact" element={<ContactUs />} exact />
             <Route path="/forum" element={<Forum />} exact />

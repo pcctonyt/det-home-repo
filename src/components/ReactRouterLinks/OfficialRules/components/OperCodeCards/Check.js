@@ -1,5 +1,5 @@
 import React from "react";
-import "../OperatorCodes/OperatorCodes.css";
+
 
 const Check = () => {
   return (

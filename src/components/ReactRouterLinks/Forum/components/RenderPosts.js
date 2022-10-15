@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button, CardTitle, CardText, ButtonGroup } from "reactstrap";
 import EditAPost from './EditAPost';
+import "./Forum.css";
 
 class RenderPosts extends React.Component {
   constructor(props){
@@ -26,8 +27,8 @@ class RenderPosts extends React.Component {
         <CardTitle tag="h5">{this.props.post.title}</CardTitle>
         <CardText>{this.props.post.body}</CardText>
         <ButtonGroup>
-        <Button color="danger" onClick={()=>this.props.deletePost(this.props.post.id)}>Delete</Button>
-        <Button color="primary" onClick={this.handleEdit}>Edit</Button>
+        <Button color="danger" id="delete-btn" onClick={()=>this.props.deletePost(this.props.post.id)}>Delete</Button>
+        <Button color="primary" id="edit-btn" onClick={this.handleEdit}>Edit</Button>
         </ButtonGroup>
         { this.state.isEdit ? <EditAPost handleEdit={this.handleEdit} post={this.props.post} editPost={this.props.editPost}/> : null }
       </Card>
