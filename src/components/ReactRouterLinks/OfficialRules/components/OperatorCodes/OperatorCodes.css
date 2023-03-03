@@ -12,7 +12,7 @@
 
 .operator-codes-btn {
     background-color: rgb(91, 171, 41);
-    color: rgb(236, 23, 12);
+    /*color: rgb(236, 23, 52);*/
     padding: .5rem;
     margin: .5rem 3rem;
     border-radius: .625rem;
@@ -20,7 +20,7 @@
 
 .operator-codes-btn:hover {
     background-color: rgb(236, 23, 92);
-    color: rgb(91, 171, 41);
+    /*color: rgb(91, 171, 41);*/
     padding: .5rem;
     margin: .5rem 3rem;
     border-radius: .625rem;
